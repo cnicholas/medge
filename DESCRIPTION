@@ -1,9 +1,12 @@
-Package: medge
-Type: Package
-Title: Marshall Edgeworth Decomposition for Weighted Averages
-Version: 1.0
-Date: 2014-11-27
-Author: Chris Nicholas
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Package: medge 
+Title: An implementation of the Marshall Edgeworth Decomposition 
+Description: This package implements the Marshall Edgeworth decomposition in R. 
+    This method is used to explain changes in weighted averages between two 
+    points in time in terms weight and rate effects. 
+Version: 0.1 
+Authors@R: person("Chris", "Nicholas", email = "chris.nicholas@gmail.com", 
+    role=c("aut", "cre")) 
+Depends: 
+    R (>= 3.0.1) 
+License: ACM 
+LazyData: false 
